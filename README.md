@@ -27,4 +27,9 @@ One of experts I talked to explained it like this: while plain networks try to f
 
 ![ResNet](https://github.com/Ra00f1/Convolutional-Neural-Networks-Summary/assets/32569954/42b42fdd-632b-4334-8063-69923e6e33b8)
 
+# Notes
+Loss function: Error for a single training example.
+
+Cost function: Average of the loss functions of the entire training set.
+
 
