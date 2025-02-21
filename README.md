@@ -70,8 +70,28 @@ One of experts I talked to explained it like this: while plain networks try to f
 
 ### Residual Block Formula: ![image](https://github.com/Ra00f1/Convolutional-Neural-Networks-Summary/assets/32569954/44ce9aaa-9297-46b3-8e00-3310c0adb310)
 
-![ResNet](https://github.com/Ra00f1/Convolutional-Neural-Networks-Summary/assets/32569954/42b42fdd-632b-4334-8063-69923e6e33b8)
+<img src="https://github.com/Ra00f1/Convolutional-Neural-Networks-Summary/assets/32569954/42b42fdd-632b-4334-8063-69923e6e33b8" width="1100" height="400">
 
+# Coding Notes
+This part is mostely for translating math formulas into code when practicing and for future use.
+```
+np.linalg.norm(X[i] - centroids[j]) 
+```
+![image](https://github.com/user-attachments/assets/eac29917-41c1-47ff-9b20-e1b1aab36fb9)
+- https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html
+______________________________________________________________
+```
+points = X[idx == k]
+```
+- get all the points in X that have the idx equal to k
+______________________________________________________________
+```
+centroids[k] = np.mean(points, axis = 0)
+```
+![image](https://github.com/user-attachments/assets/164dab95-944f-443c-93bd-2631f051e837)
+
+- The formula looks complicated however it is jsut a mean of the group formula
+- https://numpy.org/doc/stable/reference/generated/numpy.mean.html
 # Notes
 Loss function: Error for a single training example.
 
