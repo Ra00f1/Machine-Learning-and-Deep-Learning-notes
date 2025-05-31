@@ -1,3 +1,52 @@
+# Metrics
+## Accuracy
+Out of all the predictions we made, how many were true?
+![image](https://github.com/user-attachments/assets/b09e13d8-3550-46cb-b423-a37372977ea4)
+
+## Precision 
+Out of all the positive predictions we made, how many were true?
+
+![image](https://github.com/user-attachments/assets/48d3eb38-f2f0-4856-848f-792bee87f328)
+
+## Recall 
+Out of all the data points that should be predicted as true, how many did we correctly predict as true?
+
+![image](https://github.com/user-attachments/assets/db2603a2-34b3-4697-be84-246245a05de8)
+
+## F1 Score
+F1 Score is a measure that combines recall and precision. As we have seen there is a trade-off between precision and recall, F1 can therefore be used to measure how effectively our models make that trade-off.
+
+![image](https://github.com/user-attachments/assets/f8e9cbc3-dfd9-443c-aa3b-2ba7c5c9b6ff)
+
+# Confusion matrix
+* True Positive: You predicted positive, and it’s true.
+* True Negative: You predicted negative, and it’s true.
+* False Positive: (Type 1 Error): You predicted positive, and it’s false.
+* False Negative: (Type 2 Error): You predicted negative, and it’s false.
+* Accuracy: the proportion of the total number of correct predictions that were correct.
+* Positive Predictive Value or Precision: the proportion of positive cases that were correctly identified.
+* Negative Predictive Value: the proportion of negative cases that were correctly identified.
+* Sensitivity or Recall: the proportion of actual positive cases which are correctly identified.
+* Specificity: the proportion of actual negative cases which are correctly identified.
+* Rate: It is a measuring factor in a confusion matrix. It has also 4 types TPR, FPR, TNR, and FNR.
+![image](https://github.com/user-attachments/assets/8e174093-ab54-40a7-a442-549c3c2f6764)
+
+# Logarithmic Loss
+Log loss penalizes the false (false positive) classification. It usually works well with multi-class classification. 
+![image](https://github.com/user-attachments/assets/7de4276f-e9ba-4423-a074-4010892d56c4)
+
+# Area Under Curve (AUC)
+It is one of the widely used metrics and basically used for binary classification. The AUC of a classifier is defined as the probability of a classifier will rank a randomly chosen positive example higher than a negative example. 
+
+# Mean Absolute Error (MAE)
+Mean Absolute Error(MAE) is the average distance between predicted and original values. Basically, it gives how we have predicted from the actual output. However, there is one limitation i.e. it doesn't give any idea about the direction of the error which is whether we are under-predicting or over-predicting our data.
+![image](https://github.com/user-attachments/assets/59d9223c-37c5-4f60-83a8-bef715f423ce)
+
+# Mean Squared Error (MSE)
+
+# Root Mean Squared Error (RMSE)
+
+
 # Machine Learning Summary
 ## Unsupervised Learning
 ### Clustering 
