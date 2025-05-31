@@ -6,10 +6,20 @@ Out of all the predictions we made, how many were true?
 ## Precision 
 Out of all the positive predictions we made, how many were true?
 
+Use when:
+* False positives are costly.
+* Example: Spam detection. You don’t want to classify important emails as spam.
+
+
 ![image](https://github.com/user-attachments/assets/48d3eb38-f2f0-4856-848f-792bee87f328)
 
 ## Recall 
 Out of all the data points that should be predicted as true, how many did we correctly predict as true?
+
+Use when:
+* False negatives are costly.
+* Example: Disease diagnosis. You want to catch as many sick patients as possible.
+
 
 ![image](https://github.com/user-attachments/assets/db2603a2-34b3-4697-be84-246245a05de8)
 
